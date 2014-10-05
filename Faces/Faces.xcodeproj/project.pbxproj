@@ -15,6 +15,7 @@
 		4A5B10EE19E1D4C1000A8D03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B10ED19E1D4C1000A8D03 /* Images.xcassets */; };
 		4A5B10F119E1D4C1000A8D03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B10EF19E1D4C1000A8D03 /* LaunchScreen.xib */; };
 		4A5B10FD19E1D4C1000A8D03 /* FacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B10FC19E1D4C1000A8D03 /* FacesTests.swift */; };
+		4ABF764319E1DD8900A96508 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABF764219E1DD8900A96508 /* Set.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4A5B10F619E1D4C1000A8D03 /* FacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5B10FB19E1D4C1000A8D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5B10FC19E1D4C1000A8D03 /* FacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacesTests.swift; sourceTree = "<group>"; };
+		4ABF764219E1DD8900A96508 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				4A5B10EA19E1D4C1000A8D03 /* Main.storyboard */,
 				4A5B10ED19E1D4C1000A8D03 /* Images.xcassets */,
 				4A5B10EF19E1D4C1000A8D03 /* LaunchScreen.xib */,
+				4ABF764219E1DD8900A96508 /* Set.swift */,
 				4A5B10E319E1D4C1000A8D03 /* Faces.xcdatamodeld */,
 				4A5B10DF19E1D4C1000A8D03 /* Supporting Files */,
 			);
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABF764319E1DD8900A96508 /* Set.swift in Sources */,
 				4A5B10E519E1D4C1000A8D03 /* Faces.xcdatamodeld in Sources */,
 				4A5B10E219E1D4C1000A8D03 /* AppDelegate.swift in Sources */,
 				4A5B10E719E1D4C1000A8D03 /* MasterViewController.swift in Sources */,
@@ -413,6 +417,7 @@
 				4A5B110219E1D4C1000A8D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A5B110319E1D4C1000A8D03 /* Build configuration list for PBXNativeTarget "FacesTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				4A5B110519E1D4C1000A8D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
