@@ -37,7 +37,14 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showSettings" {
+            if let detail = detailItem as? Set {
+                (segue.destinationViewController as SettingsViewController).set = detail
+            }
+        }
+    }
+    
 }
 
