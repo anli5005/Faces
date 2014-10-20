@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A005CD119F2E29E006BCA5A /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A005CD019F2E29E006BCA5A /* Face.swift */; };
 		4A5B10E219E1D4C1000A8D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B10E119E1D4C1000A8D03 /* AppDelegate.swift */; };
 		4A5B10E519E1D4C1000A8D03 /* Faces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B10E319E1D4C1000A8D03 /* Faces.xcdatamodeld */; };
 		4A5B10E719E1D4C1000A8D03 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B10E619E1D4C1000A8D03 /* MasterViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A005CD019F2E29E006BCA5A /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
 		4A5B10DC19E1D4C1000A8D03 /* Faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5B10E019E1D4C1000A8D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5B10E119E1D4C1000A8D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				4A5B10ED19E1D4C1000A8D03 /* Images.xcassets */,
 				4A5B10EF19E1D4C1000A8D03 /* LaunchScreen.xib */,
 				4ABF764219E1DD8900A96508 /* Set.swift */,
+				4A005CD019F2E29E006BCA5A /* Face.swift */,
 				4A5B10E319E1D4C1000A8D03 /* Faces.xcdatamodeld */,
 				4A5B10DF19E1D4C1000A8D03 /* Supporting Files */,
 			);
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A005CD119F2E29E006BCA5A /* Face.swift in Sources */,
 				4ABF764319E1DD8900A96508 /* Set.swift in Sources */,
 				4A5B10E519E1D4C1000A8D03 /* Faces.xcdatamodeld in Sources */,
 				4A5B10E219E1D4C1000A8D03 /* AppDelegate.swift in Sources */,
